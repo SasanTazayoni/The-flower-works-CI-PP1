@@ -12,4 +12,4 @@ The main differences in this version are requests from the client and they inclu
 * The modals for the gallery pictures have been removed
 * A small caption has been added under the gallery to link to the business' Instagram
 
-This can all be viewed [here](https://sasantazayoni.github.io/The-flower-works-final-product/).
+This can all be viewed on the website [here](https://sasantazayoni.github.io/The-flower-works-final-product/).
