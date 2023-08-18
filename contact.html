@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Flower Works - Florist in West London, England.">
+    <meta name="keywords" content="the flower works, florist, london, england, flowers, shop">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="assets/scripts/script.js" defer></script>
+    <title>The Flower Works - Contact</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav data-navbar>
+            <img src="assets/images/flowerworkslogo.png" class="nav__logo nav__component" alt="The Flower Works company logo">
+            <img src="assets/images/flowerworkslogosmall.png" class="nav__logo--small nav__component"
+                alt="The Flower Works company logo without text">
+            <ul class="nav__component nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+            <div class="nav__component">
+                <a href="https://www.instagram.com/flowerworksw10/?hl=en-gb" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)" class="instagram-link"
+                    data-instagram-tooltip="Check out our Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <button type="button" class="collapsible__toggler" aria-label="Toggle Menu" data-menu-tooltip="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <ul class="collapsible__content">
+                <li class="nav__item"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav__item"><a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                <li class="nav__item"><a href="services.html"><i class="fa-solid fa-truck"></i> Services</a></li>
+                <li class="nav__item"><a href="#"><i class="fa-sharp fa-regular fa-images"></i> Gallery</a></li>
+                <li class="nav__item"><a href="contact.html"><i class="fa-regular fa-address-card"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact card block -->
+        <section class="block">
+            <div class="container">
+                <header class="page__header">
+                    <h2>Contact us</h2>
+                </header>
+                <div class="card card--grey grid--1x2" data-aos="flip-down">
+                    <div class="contact-card__content">
+                        <p>If you have any questions please contact us via the following:</p>
+                        <br>
+                        <address>
+                            <p>Telephone: <span class="bold">0208 960 7114</span></p>
+                            <p>Email:
+                                <span class="bold">
+                                    <a href="mailto:theflowerworks@live.com">theflowerworks@live.com</a>
+                                </span>
+                            </p>
+                        </address>
+                        <br>
+                        <p>Our opening hours are:</p>
+                        <br>
+                        <p>
+                            <span class="bold"> Mondays - Fridays at 9:00AM - 3:30PM <br>Saturdays at 9:00AM -
+                                1:00PM</span>
+                        </p>
+                    </div>
+                    <picture class="contact-card__image">
+                        <img src="assets/images/contactcardplaceholder.webp" alt="picture of the business owner">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!-- Enquiries form block -->
+        <section class="block--grey">
+            <div class="container">
+                <div class="card enquiries-form" data-aos="fade-in">
+                    <header>
+                        <h3 class="block__header">Enquiries form</h3>
+                    </header>
+                    <div class="enquiries-form__content">
+                        <form action="https://formspree.io/f/xyyqglnj" method="POST">
+                            <fieldset>
+                                <label for="fullname">Full name</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Full name" minlength="1"
+                                    maxlength="40" required>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" minlength="5"
+                                    maxlength="40" required>
+                                <label for="enquiry">Your enquiry</label>
+                                <textarea name="enquiry" id="enquiry" placeholder="Your enquiry" minlength="10"
+                                    maxlength="300" class="enquiries-form__textarea" required></textarea>
+                            </fieldset>
+                            <div class="button__container">
+                                <button class="button" id="enquiry__submit-button" type="submit">Submit</button>
+                                <button class="button" id="enquiry__reset-button" type="reset">Clear</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Google maps block -->
+        <section class="block">
+            <div class="container">
+                <header class="block__header">
+                    <h3>Where to find us</h3>
+                </header>
+                <div class="google-maps__container card card--grey" data-aos="fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6594556821074!2d-0.22957872305442284!3d51.519463409821604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487610292bd82841%3A0x8bef4d49ab74cfb!2sThe%20Flower%20Works!5e0!3m2!1sen!2suk!4v1688223107502!5m2!1sen!2suk"
+                        class="google-maps" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Back to top button -->
+        <a href="#" class="scroll-up-link" aria-label="Scroll to top" data-scroll-up="Back to top">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </main>
+    <footer>
+        <!-- Footer navigation bar -->
+        <section>
+            <ul class="footer__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+            <img src="assets/images/flowerworkslogosmall.png" class="footer__logo" alt="The Flower Works company logo">
+        </section>
+        <!-- Credits -->
+        <section class="footer__credits">
+            <p>&copy; The Flower Works 2023 <br> Website designed & created by Sasan Tazayoni</p>
+            <a href="https://github.com/SasanTazayoni" target="_blank" rel="noopener" class="github-link"
+                aria-label="Github profile link">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </section>
+    </footer>
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/cc28b3bda6.js" crossorigin="anonymous"></script>
+    <!-- Animation on scroll library script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
