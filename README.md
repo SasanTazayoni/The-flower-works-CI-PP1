@@ -1,6 +1,6 @@
 # The Flower Works
 
-This is the final product for The Flower Works website, the full documentation can be found [here](https://github.com/SasanTazayoni/The-flower-works/blob/main/README.md).
+This is the final product for The Flower Works website, all of the changes below can be viewed on the website [here](https://sasantazayoni.github.io/The-flower-works-final-product/).
 
 The main differences in this version are requests from the client and they include:
 * Removal of the FAQ page
@@ -12,4 +12,6 @@ The main differences in this version are requests from the client and they inclu
 * The modals for the gallery pictures have been removed
 * A small caption has been added under the gallery to link to the business' Instagram
 
-This can all be viewed on the website [here](https://sasantazayoni.github.io/The-flower-works-final-product/).
+The website also live on Hostinger (web hosting service) and this can be viewed [here](https://www.theflowerworks.co.uk).
+
+The full documentation for this website can be found [here](https://github.com/SasanTazayoni/The-flower-works/blob/main/README.md).
