@@ -1,5 +1,7 @@
 # The Flower Works
 
+![HTML](tech/html.png) ![CSS](tech/css.png) ![Javascript](tech/javascript.png)
+
 Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
 ## Introduction
