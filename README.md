@@ -12,7 +12,7 @@ The business currently has a website; however, it could be further improved with
 
 The website also live on Hostinger (web hosting service) and this can be viewed [here](https://www.theflowerworks.co.uk).
 
-![The Flower Works website on all various devices](documentation/responsiveness.png)
+![The Flower Works website on various devices](documentation/responsiveness.png)
 
 ## User Experience (UX)
 
