@@ -243,11 +243,11 @@ a {
     cursor: pointer;
 }
 
-div>.button {
+.button__container > .button {
     color: var(--color-primary);
 }
 
-div>.button:hover {
+.button__container > .button:hover {
     color: var(--color-secondary);
 }
 
@@ -507,7 +507,7 @@ li>.active {
     font-weight: 900;
 }
 
-div>.instagram-link {
+.nav__component > .instagram-link {
     margin-right: 60px;
 }
 
@@ -588,7 +588,7 @@ ul>.nav__item {
         width: 120px;
     }
 
-    div>.instagram-link {
+    .nav__component > .instagram-link {
         margin-right: 50px;
     }
 
@@ -620,7 +620,7 @@ ul>.nav__item {
         display: none;
     }
 
-    div>.instagram-link {
+    .nav__component > .instagram-link {
         margin-right: 20px;
     }
 
@@ -650,7 +650,7 @@ ul>.nav__item {
         color: var(--color-primary);
     }
 
-    div>.collapsible__toggler {
+    .nav__component > .collapsible__toggler {
         margin-right: 20px;
     }
 
@@ -696,11 +696,11 @@ ul>.nav__item {
         font-size: 16px;
     }
 
-    div>.instagram-link {
+    .nav__component > .instagram-link {
         margin-right: 15px;
     }
 
-    div>.collapsible__toggler {
+    .nav__component > .collapsible__toggler {
         margin-right: 15px;
     }
 
@@ -710,11 +710,11 @@ ul>.nav__item {
 }
 
 @media screen and (max-width: 376px) {
-    div>.instagram-link {
+    .nav__component > .instagram-link {
         margin-right: 12px;
     }
 
-    div>.collapsible__toggler {
+    .nav__component > .collapsible__toggler {
         margin-right: 12px;
     }
 
