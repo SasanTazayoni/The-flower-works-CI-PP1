@@ -8,7 +8,7 @@ Welcome to The Flower Works README file! This has all the essential information 
 
 The Flower Works is a renowned family-run florist specialising in exquisite floral arrangements and services. It is real business located in west London and has an online presence mainly via Instagram.
 
-The business currently has a website; however, it could be further improved with modern design elements and enhanced features, incorporating semantic elements to create a stronger and more impactful online presence. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works-CI-PP1).
+I designed and built this website for The Flower Works as a real client project, creating a modern and fully responsive online presence for the business from the ground up. The live site can also be viewed [here](https://sasantazayoni.github.io/The-flower-works).
 
 The website also live on Hostinger (web hosting service) and this can be viewed [here](https://www.theflowerworks.co.uk).
 
@@ -40,7 +40,7 @@ This combination creates a visually appealing and captivating colour palette tha
 
 ### Imagery
 
-The images play a vital role in terms of the user experience on a florist website. They are able to captivate visitors and convey the beauty and essence of flowers in a way that words alone cannot. At the time of writing this README.md file, placeholder images are being used but they will be replaced with images supplied by the business owner for the final iteration of the website.
+The images play a vital role in terms of the user experience on a florist website. They are able to captivate visitors and convey the beauty and essence of flowers in a way that words alone cannot. All images have been supplied by the business owner and are used with permission.
 
 - The logo image is a simple but effective icon that can be reused across many other platforms representing the business brand.
 - The hero image is purposely vibrant and beautiful and gives a positive association with the business.
@@ -48,7 +48,7 @@ The images play a vital role in terms of the user experience on a florist websit
 - The services images show a sample of some of the flowers offered by the business.
 - The gallery has been carefully designed with images that are Photoshop-editted so that they are aligned centrally, showing the flowers clearly. This page is extremely important for customers and therefore extra effort has been put into its design so that all images are clear and of high-quality on all screen sizes.
 - The modal images are each supplied in a larger size individually to retain the quality of the images.
-- The contact page has a placeholder image and works correctly with the grid. This image will be replaced with a picture of the owner of the business.
+- The contact page features an image of the business owner.
 
 ### Overview
 
@@ -157,13 +157,12 @@ The wireframes do not fully correspond with the end product due to multiple chan
 - [Google Fonts](https://fonts.google.com/) used to import 'Playfair Display' and 'Roboto' fonts.
 - [Google Maps](https://www.google.co.uk/maps) used to import business location to the contact page.
 - [Github](https://github.com/) used to host repository.
-- [Codeanywhere](https://app.codeanywhere.com/) used to develop project and organise version control.
+- [Gitpod](https://www.gitpod.io/) used to develop project and organise version control.
 - [Github pages](https://pages.github.com/) used to deploy the website.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) used for performance review.
 - [Caniuse](https://caniuse.com/) used to check compatibility of code syntax with other browsers.
 - [PowerMapper](https://www.powermapper.com/) used to check compatibility of website with other browsers.
 - [Amiresposive](https://amiresponsive.co.uk/) used to display website on the most common devices.
-- [Responsinator](http://www.responsinator.com/) used to check if site was responsive on different screen sizes.
 - [Photoshop](https://www.adobe.com/uk/products/photoshop/) used to resize photos.
 - [Tinypng](https://tinypng.com/) used to compress image files for better performance.
 - [Block-element-modifier naming convention](https://www.geeksforgeeks.org/understanding-the-css-bem-convention/) used for naming CSS classes.
@@ -196,7 +195,6 @@ At the completion or heavy editing of sections, I used the following websites to
   <br> ![Home page](documentation/SS1.png)
 
 - As a user, I want to be able to see the prices of products without having to search through various pages.
-
   - The pricing of flowers is determined based on the specific type of order or requested service. The home page provides an overview of the pricing, while the services page offers a comprehensive breakdown of the different pricing options available.
   - Screenshot of the pricing overview on the home page:
     <br>
@@ -206,7 +204,6 @@ At the completion or heavy editing of sections, I used the following websites to
     <br> ![Services page pricing](documentation/SS3.png)
 
 - As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
-
   - The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
   - Screenshot of a part of the gallery page:
     <br>
@@ -224,7 +221,6 @@ At the completion or heavy editing of sections, I used the following websites to
     <br>
     <br> ![Enquiries form](documentation/SS7.png)
 - As a user, I want to be able to be able to find the business location.
-
   - The contact page features an embedded Google Maps location that includes an image and the business address, allowing users to easily locate and navigate to our establishment.
   - Screenshot of Google Maps:
     <br>
@@ -270,17 +266,6 @@ At the completion or heavy editing of sections, I used the following websites to
   - Opera
   - Brave
 
-### Responsinator
-
-When there were browsers that were inaccessible at the time of testing, responsinator was used to make sure that the website was fully responsive on all devices. The results can be viewed for the following:
-
-[Home page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2F) <br >
-[About page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fabout.html) <br >
-[Services page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fservices.html) <br >
-[Gallery page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fgallery.html) <br >
-[FAQ page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Ffaq.html) <br >
-[Contact page](http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fcontact.html) <br >
-
 ### Third-Party Testing
 
 One of the most helpful ways to test throughout the establishment of this website was to have a few different people test it on various devices.
@@ -302,8 +287,8 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 The results indicate that the website is of excellent quality. There are a few issues that were raised:
 
 - High quality images can be a detriment to users with a slow connection speed and therefore need further optimisation. Since the existing pictures are all placeholders, it is unnecessary to optimise until the real pictures are delivered.
-- List items should be direct children of a unordered list or ordered list element for proper list structure. While this doesn't significantly impact accessibility, it's a best practice to keep in mind for future projects.
-- The website may have some font sizes that are too small for optimal readability on mobile screens (below 12px). While the font sizes are never below 10px, it is recommended to adhere to a minimum of 12px for text to ensure better mobile-friendly experience and readability for future projects.
+- List items should be direct children of a unordered list or ordered list element for proper list structure. While this doesn't significantly impact accessibility, it is a best practice that has been kept in mind throughout development.
+- The website may have some font sizes that are too small for optimal readability on mobile screens (below 12px). While the font sizes are never below 10px, a minimum of 12px is recommended for text to ensure better mobile-friendly experience and readability.
 
 ### PowerMapper
 
