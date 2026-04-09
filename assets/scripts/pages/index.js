@@ -1,6 +1,9 @@
 const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
 const nextTestimonialButton = document.querySelector('[data-testimonials-button="next"]');
 
+const TESTIMONIAL_INTERVAL_MS = 16000;
+let sliderInterval = null;
+
 // Testimonials component
 
 testimonialsButtons.forEach(button => {
@@ -30,6 +33,12 @@ testimonialsButtons.forEach(button => {
         delete activeTab.dataset.active;
 
         button.blur();
+
+        // Reset the auto-rotation timer on manual click
+        clearInterval(sliderInterval);
+        sliderInterval = setInterval(() => {
+            nextTestimonialButton.click();
+        }, TESTIMONIAL_INTERVAL_MS);
     });
 });
 
@@ -37,10 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
     startTestimonialSlider();
 });
 
-const TESTIMONIAL_INTERVAL_MS = 16000;
-
 const startTestimonialSlider = () => {
-    setInterval(() => {
+    sliderInterval = setInterval(() => {
         nextTestimonialButton.click();
     }, TESTIMONIAL_INTERVAL_MS);
 };
