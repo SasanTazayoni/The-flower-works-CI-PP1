@@ -1,6 +1,5 @@
 const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
 const nextTestimonialButton = document.querySelector('[data-testimonials-button="next"]');
-const testimonialsTabs = document.querySelectorAll('[data-testimonials-tab]');
 
 // Testimonials component
 
@@ -38,8 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     startTestimonialSlider();
 });
 
+const TESTIMONIAL_INTERVAL_MS = 16000;
+
 const startTestimonialSlider = () => {
     setInterval(() => {
         nextTestimonialButton.click();
-    }, 16000);
+    }, TESTIMONIAL_INTERVAL_MS);
 };
