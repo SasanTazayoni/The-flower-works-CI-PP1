@@ -8,7 +8,7 @@ Welcome to The Flower Works README file! This has all the essential information 
 
 The Flower Works is a renowned family-run florist specialising in exquisite floral arrangements and services. It is real business located in west London and has an online presence mainly via Instagram.
 
-I designed and built this website for The Flower Works as a real client project, creating a modern and fully responsive online presence for the business from the ground up. The live site can also be viewed [here](https://sasantazayoni.github.io/The-flower-works).
+I designed and built this website for The Flower Works as a real client project, creating a modern and fully responsive online presence for the business from the ground up. The live site can also be viewed [here](https://sasantazayoni.github.io/The-Flower-Works/).
 
 The website also live on Hostinger (web hosting service) and this can be viewed [here](https://www.theflowerworks.co.uk).
 
