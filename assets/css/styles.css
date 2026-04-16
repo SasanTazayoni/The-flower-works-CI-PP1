@@ -125,6 +125,14 @@ h2 {
   .page__header {
     margin-bottom: 15px;
   }
+
+  .footer__credits {
+    font-size: 12px;
+  }
+
+  .testimonials__card {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 372px) {
@@ -948,13 +956,13 @@ ul > .nav__item {
 @media screen and (max-width: 372px) {
   .testimonials__card {
     height: 260px;
-    font-size: 95%;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 324px) {
   .testimonials__card {
-    font-size: 90%;
+    font-size: 12px;
   }
 
   .testimonials__content {
@@ -1136,14 +1144,21 @@ footer li {
   color: var(--color-primary);
 }
 
-.footer__credits > a:first-child {
-  margin-bottom: 10px;
+.footer__links {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.footer__links a,
+.footer__links a:visited {
+  color: var(--color-primary);
   opacity: 0.5;
   position: relative;
   transition: opacity 0.3s ease;
 }
 
-.footer__credits > a:first-child::after {
+.footer__links a::after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -1154,14 +1169,22 @@ footer li {
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-.footer__credits > a:first-child:hover {
+.footer__links a:hover {
   opacity: 1;
 }
 
-.footer__credits > a:first-child:hover::after {
+.footer__links a:hover::after {
   width: 100%;
   left: 0;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 428px) {
+  .footer__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
 .github-link i {
