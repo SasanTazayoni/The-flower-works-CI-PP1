@@ -1,18 +1,13 @@
-const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
-const nextTestimonialButton = document.querySelector('[data-testimonials-button="next"]');
+(function () {
+    const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
+    const container = document.querySelector('[data-testimonials]');
+    if (!testimonialsButtons.length || !container) return;
 
-const TESTIMONIAL_INTERVAL_MS = 16000;
-let sliderInterval = null;
+    const TESTIMONIAL_INTERVAL_MS = 16000;
+    let sliderInterval = null;
 
-// Testimonials component
-
-testimonialsButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const offset = button.dataset.testimonialsButton === 'next' ? 1 : -1;
-
-        // Testimonial index
-
-        const testimonials = button.closest('[data-testimonials]').querySelector('[data-testimonials-content]');
+    function advance(offset) {
+        const testimonials = container.querySelector('[data-testimonials-content]');
         const activeTestimonial = testimonials.querySelector('[data-active]');
         let newIndex = [...testimonials.children].indexOf(activeTestimonial) + offset;
         if (newIndex < 0) newIndex = testimonials.children.length - 1;
@@ -21,9 +16,7 @@ testimonialsButtons.forEach(button => {
         testimonials.children[newIndex].dataset.active = true;
         delete activeTestimonial.dataset.active;
 
-        // Tab index
-
-        const tabs = button.closest('[data-testimonials]').querySelector('[data-testimonials-tabs]');
+        const tabs = container.querySelector('[data-testimonials-tabs]');
         const activeTab = tabs.querySelector('[data-active]');
         let newTabIndex = [...tabs.children].indexOf(activeTab) + offset;
         if (newTabIndex < 0) newTabIndex = tabs.children.length - 1;
@@ -31,23 +24,20 @@ testimonialsButtons.forEach(button => {
 
         tabs.children[newTabIndex].dataset.active = true;
         delete activeTab.dataset.active;
+    }
 
-        button.blur();
+    function startSlider() {
+        sliderInterval = setInterval(() => advance(1), TESTIMONIAL_INTERVAL_MS);
+    }
 
-        // Reset the auto-rotation timer on manual click
-        clearInterval(sliderInterval);
-        sliderInterval = setInterval(() => {
-            nextTestimonialButton.click();
-        }, TESTIMONIAL_INTERVAL_MS);
+    testimonialsButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const offset = button.dataset.testimonialsButton === 'next' ? 1 : -1;
+            advance(offset);
+            clearInterval(sliderInterval);
+            startSlider();
+        });
     });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
-    startTestimonialSlider();
-});
-
-const startTestimonialSlider = () => {
-    sliderInterval = setInterval(() => {
-        nextTestimonialButton.click();
-    }, TESTIMONIAL_INTERVAL_MS);
-};
+    startSlider();
+}());

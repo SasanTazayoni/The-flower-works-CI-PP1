@@ -6,14 +6,16 @@ const scrollToTop = document.querySelector('[data-scroll-up]');
 
 // Menu component
 
-collapsibleToggler.addEventListener('click', () => {
-    collapsibleContent.classList.toggle('collapsible--expanded');
-});
+if (collapsibleToggler && collapsibleContent) {
+    collapsibleToggler.addEventListener('click', () => {
+        collapsibleContent.classList.toggle('collapsible--expanded');
+    });
+}
 
 // Button component
 
 btns.forEach(btn => {
-    btn.addEventListener('mouseover', function (e) {
+    btn.addEventListener('mouseenter', function (e) {
         let x = e.clientX - e.target.getBoundingClientRect().left;
         let y = e.clientY - e.target.getBoundingClientRect().top;
         let ripples = document.createElement('span');
@@ -29,14 +31,16 @@ btns.forEach(btn => {
 
 // Scroll up link component
 
-window.addEventListener('scroll', () => {
-    const scrollHeight = window.scrollY;
-    const navHeight = navbar.getBoundingClientRect().height;
-    if (scrollHeight > (navHeight * 2)) {
-        scrollToTop.classList.add('show-link');
-    } else {
-        scrollToTop.classList.remove('show-link');
-    }
+if (navbar && scrollToTop) {
+    window.addEventListener('scroll', () => {
+        const scrollHeight = window.scrollY;
+        const navHeight = navbar.getBoundingClientRect().height;
+        if (scrollHeight > (navHeight * 2)) {
+            scrollToTop.classList.add('show-link');
+        } else {
+            scrollToTop.classList.remove('show-link');
+        }
 
-    scrollToTop.blur();
-});
+        scrollToTop.blur();
+    });
+}
