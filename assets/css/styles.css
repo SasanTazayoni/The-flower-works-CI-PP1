@@ -464,6 +464,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
   z-index: 2;
 }
 
@@ -993,7 +994,6 @@ ul > .nav__item {
   bottom: 3rem;
   font-size: 30px;
   animation: rotate 3s ease-in-out infinite;
-  transition: opacity 2s;
   color: var(--color-secondary);
   padding: 5px 10px;
   border: 2px solid var(--color-secondary);
