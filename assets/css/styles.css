@@ -79,6 +79,15 @@ h2 {
   font-weight: 600;
 }
 
+.link {
+  color: var(--color-link);
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
 .italic {
   font-style: italic;
 }
