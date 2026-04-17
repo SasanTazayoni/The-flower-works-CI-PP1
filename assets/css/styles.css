@@ -1584,7 +1584,7 @@ footer li {
   padding: 10px;
 }
 
-.contact-card__image > img {
+.contact-card__image {
   border-radius: var(--border-radius);
   object-fit: cover;
   width: 100%;
@@ -1605,7 +1605,7 @@ footer li {
     padding: 0 24px;
   }
 
-  .contact-card__image > img {
+  .contact-card__image {
     width: 100%;
   }
 }
