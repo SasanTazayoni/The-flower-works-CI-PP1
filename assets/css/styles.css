@@ -1399,84 +1399,16 @@ footer li {
 /* Gallery */
 
 .gallery-card {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 440px;
   overflow: hidden;
 }
 
-#card-1 {
-  background-image: url(../images/gallerypic1.webp);
-}
-#card-2 {
-  background-image: url(../images/gallerypic2.webp);
-}
-#card-3 {
-  background-image: url(../images/gallerypic3.webp);
-}
-#card-4 {
-  background-image: url(../images/gallerypic4.webp);
-}
-#card-5 {
-  background-image: url(../images/gallerypic5.webp);
-}
-#card-6 {
-  background-image: url(../images/gallerypic6.webp);
-}
-#card-7 {
-  background-image: url(../images/gallerypic7.webp);
-}
-#card-8 {
-  background-image: url(../images/gallerypic8.webp);
-}
-#card-9 {
-  background-image: url(../images/gallerypic9.webp);
-}
-#card-10 {
-  background-image: url(../images/gallerypic10.webp);
-}
-#card-11 {
-  background-image: url(../images/gallerypic11.webp);
-}
-#card-12 {
-  background-image: url(../images/gallerypic12.webp);
-}
-#card-13 {
-  background-image: url(../images/gallerypic13.webp);
-}
-#card-14 {
-  background-image: url(../images/gallerypic14.webp);
-}
-#card-15 {
-  background-image: url(../images/gallerypic15.webp);
-}
-#card-16 {
-  background-image: url(../images/gallerypic16.webp);
-}
-#card-17 {
-  background-image: url(../images/gallerypic17.webp);
-}
-#card-18 {
-  background-image: url(../images/gallerypic18.webp);
-}
-#card-19 {
-  background-image: url(../images/gallerypic19.webp);
-}
-#card-20 {
-  background-image: url(../images/gallerypic20.webp);
-}
-#card-21 {
-  background-image: url(../images/gallerypic21.webp);
-}
-#card-22 {
-  background-image: url(../images/gallerypic22.webp);
-}
-#card-23 {
-  background-image: url(../images/gallerypic23.webp);
-}
-#card-24 {
-  background-image: url(../images/gallerypic24.webp);
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .gallery__text {
