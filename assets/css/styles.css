@@ -543,8 +543,7 @@ li > .active {
   position: relative;
 }
 
-.instagram-link::before,
-.instagram-link::after {
+.instagram-link::before {
   --scale: 0;
   position: absolute;
   left: 50%;
@@ -615,8 +614,7 @@ ul > .nav__item {
     font-size: 40px;
   }
 
-  .instagram-link::before,
-  .instagram-link::after {
+  .instagram-link::before {
     font-size: 12px;
     transform: translateX(-50%) translateY(100%) scale(var(--scale));
   }
@@ -654,8 +652,7 @@ ul > .nav__item {
     display: none;
   }
 
-  .instagram-link::before,
-  .instagram-link::after {
+  .instagram-link::before {
     display: none;
   }
 
@@ -1015,7 +1012,7 @@ ul > .nav__item {
   padding: 5px 10px;
   border: 2px solid var(--color-secondary);
   border-radius: 50%;
-  filter: drop-shadow(0 0 0.03em hsl(0, 0%, 100%, 0.5))
+  filter: drop-shadow(0 0 0.03em hsla(0, 0%, 100%, 0.5))
     drop-shadow(0 0 0.03em var(--color-secondary));
   box-shadow:
     inset 0 0 0.03em 0 var(--color-secondary),
@@ -1191,6 +1188,16 @@ footer li {
 }
 
 .footer__links a:hover::after {
+  width: 100%;
+  left: 0;
+  opacity: 0.6;
+}
+
+.footer__links a.active {
+  opacity: 1;
+}
+
+.footer__links a.active::after {
   width: 100%;
   left: 0;
   opacity: 0.6;
