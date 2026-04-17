@@ -74,6 +74,10 @@ The wireframes do not fully correspond with the end product due to multiple chan
 ### Current features
 
 - All pages are designed using Responsive Design and are fully responsive on all devices.
+- Each page includes a footer with navigation links, the company logo, legal pages, copyright information and a GitHub link.
+  <br>
+  <br> ![Footer](documentation/footer.png)
+  <br>
 - The navigation menu collapses on smaller viewports allowing for a more compact view.
 - The company logo only displays an icon in smaller viewports for simplicity.
   <br>
@@ -91,10 +95,6 @@ The wireframes do not fully correspond with the end product due to multiple chan
 - The drop-down menu on the navigation bar has small icons as bullet points that represent the text.
   <br>
   <br> ![Drop-down menu for small screens](documentation/dropdown.png)
-  <br>
-- All anchor links have a visual effect that brightens when hovered over.
-  <br>
-  <br> ![Anchor hover effect](documentation/anchorhover.png)
   <br>
 - All buttons have a visual effect that brightens the text when hovered over as well as an additional ripple effect for aesthetics.
   <br>
