@@ -27,6 +27,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: var(--color-accent);
+  color: var(--color-headings);
+  font-weight: 700;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* Typography */
 
 body {
@@ -550,7 +566,8 @@ li > .active {
   width: max-content;
 }
 
-.instagram-link:hover::before {
+.instagram-link:hover::before,
+.instagram-link:focus::before {
   --scale: 1;
 }
 
