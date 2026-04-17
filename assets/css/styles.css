@@ -520,6 +520,23 @@ li > a {
   color: var(--color-primary);
   transition: color 0.3s;
   font-size: 28px;
+  position: relative;
+}
+
+li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+li > a:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 li i {
@@ -534,6 +551,11 @@ li > a:hover i {
 
 li > .active {
   font-weight: 900;
+}
+
+li > .active::after {
+  width: 100%;
+  left: 0;
 }
 
 .nav__component > .instagram-link {
@@ -1106,7 +1128,7 @@ footer li {
   padding: 20px;
 }
 
-.footer__menu a {
+.footer__menu li {
   padding: 0 20px;
 }
 
