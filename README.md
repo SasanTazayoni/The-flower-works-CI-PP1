@@ -47,7 +47,6 @@ The images play a vital role in terms of the user experience on a florist websit
 - The image on the about page shows a view of the front of the business.
 - The services images show a sample of some of the flowers offered by the business.
 - The gallery has been carefully designed with images that are Photoshop-editted so that they are aligned centrally, showing the flowers clearly. This page is extremely important for customers and therefore extra effort has been put into its design so that all images are clear and of high-quality on all screen sizes.
-- The modal images are each supplied in a larger size individually to retain the quality of the images.
 - The contact page features an image of the business owner.
 
 ### Overview
@@ -198,13 +197,10 @@ At the completion or heavy editing of sections, I used the following websites to
     <br> ![Services page pricing](documentation/SS3.png)
 
 - As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
-  - The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
+  - The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It is important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
   - Screenshot of a part of the gallery page:
     <br>
     <br> ![Gallery segment](documentation/SS4.png)
-  - Screenshot of the open modal:
-    <br>
-    <br> ![Large image view (modal)](documentation/SS5.png)
 
 - As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
   - The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
