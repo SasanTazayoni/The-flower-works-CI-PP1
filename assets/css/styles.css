@@ -175,14 +175,25 @@ h2 {
 }
 
 .button__container {
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
+  clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+  .button__container {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .container {
     margin-bottom: 30px;
+  }
+
+  .button__container {
+    margin-top: 30px;
   }
 }
 
@@ -1180,7 +1191,9 @@ footer li {
   width: 0;
   height: 1px;
   background-color: currentColor;
-  transition: width 0.3s ease, left 0.3s ease;
+  transition:
+    width 0.3s ease,
+    left 0.3s ease;
 }
 
 .footer__links a:hover {
@@ -1282,6 +1295,7 @@ footer li {
 
 .about p {
   text-align: justify;
+  margin-bottom: 0.75em;
 }
 
 .about__image {
@@ -1308,9 +1322,15 @@ footer li {
 
 /* Services */
 
+.pricing__heading {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
 .pricing-list {
   list-style-type: disc;
   padding: 0 30px;
+  margin-bottom: 1.5em;
 }
 
 .pricing-list-item {
