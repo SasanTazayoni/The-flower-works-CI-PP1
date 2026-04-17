@@ -66,8 +66,6 @@ All Wireframes were designed for larger screens such as laptops or computers; fo
 
 [Gallery page](https://imgur.com/LG0Pxkk) / [Gallery page mobile](https://imgur.com/AROpZsU)
 
-[FAQ page](https://imgur.com/JdX95BY) / [FAQ page mobile](https://imgur.com/lYpaAaJ)
-
 [Contact page](https://imgur.com/4oEYQZa) / [Contact page mobile](https://imgur.com/7EmRjfs)
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
@@ -117,13 +115,9 @@ The wireframes do not fully correspond with the end product due to multiple chan
   <br>
   <br> ![Testimonials button left](documentation/testbtnleft.png) ![Testimonials button right](documentation/testbtnright.png)
   <br>
-- The gallery page has been carefully engineered to showcase flowers on all viewports with a hover effect that elegantly reveals the name of the flowers.
+- The gallery page has been carefully engineered to showcase flowers on all viewports.
   <br>
   <br> ![Gallery image hover effect](documentation/SS4.png)
-  <br>
-- When clicking on each flower image on the gallery page, a modal image is triggered, providing an enlarged and detailed view.
-  <br>
-  <br> ![Gallery modal](documentation/SS5.png)
   <br>
 - The enquiries form on the contact page is integrated with the backend server, formspree.io. This integration facilitates efficient handling of enquiries, ensuring that they are directly forwarded to the company's designated email address.
   <br>
@@ -235,7 +229,7 @@ At the completion or heavy editing of sections, I used the following websites to
     <br>
     <br> ![Footer nav links](documentation/SS10.png)
   - Screenshot of some buttons:
-  - <br>
+    <br>
     <br> ![Example of buttons](documentation/SS11.png)
   - Screenshot of scroll up button:
     <br>
@@ -265,18 +259,6 @@ At the completion or heavy editing of sections, I used the following websites to
   - Microsoft Edge
   - Opera
   - Brave
-
-### Third-Party Testing
-
-One of the most helpful ways to test throughout the establishment of this website was to have a few different people test it on various devices.
-
-| Name     | Age | Florist BG | Tech BG |
-| -------- | --- | ---------- | ------- |
-| Laura    | 36  | High       | None    |
-| Amy      | 36  | None       | High    |
-| Nathalie | 45  | None       | High    |
-| Zara     | 65  | None       | None    |
-| Saba     | 30  | None       | High    |
 
 ### Lighthouse
 
