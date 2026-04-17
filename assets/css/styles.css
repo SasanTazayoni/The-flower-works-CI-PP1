@@ -1118,43 +1118,43 @@ footer li {
   text-align: center;
 }
 
-.privacy-policy h3 {
+.legal-content h3 {
   margin-bottom: 20px;
 }
 
-.privacy-policy p,
-.privacy-policy ul,
-.privacy-policy address {
+.legal-content p,
+.legal-content ul,
+.legal-content address {
   margin-bottom: 10px;
 }
 
-.privacy-policy ul {
+.legal-content ul {
   padding-left: 20px;
 }
 
-.privacy-policy ul li {
+.legal-content ul li {
   margin-bottom: 6px;
 }
 
-.privacy-policy__section {
+.legal-content__section {
   margin-top: 40px;
 }
 
-.privacy-policy,
-.privacy-policy h3 {
+.legal-content,
+.legal-content h3 {
   text-align: left;
 }
 
-.privacy-policy h2 {
+.legal-content h2 {
   text-align: center;
 }
 
-.privacy-policy a {
+.legal-content a {
   color: var(--color-link);
   transition: color 0.3s;
 }
 
-.privacy-policy a:hover {
+.legal-content a:hover {
   color: var(--color-primary);
 }
 
